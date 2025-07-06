@@ -3,7 +3,7 @@ const About = () => (
   <section id="about" className="container my-5">
     <h2 className="mb-3">About Me</h2>
     <p className="lead">
-      I’m a full-stack developer with 9.5+ years of experience in Java, Spring Boot, Micronaut, React, and AWS. I enjoy building scalable web applications and integrating AI services to solve real-world problems.
+      I’m a full-stack developer with 9.5+ years of experience in Java, Spring Boot, Microservice, Vaadin,React, and Cloude. I enjoy building scalable web applications and integrating AI services to solve real-world problems.
     </p>
 
     {/* 📄 Download Resume Button */}
