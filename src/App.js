@@ -10,13 +10,16 @@ import Education from './components/Education';
 
 function App() {
   return (
-    <div>
+    <div className="header-gradient text-white py-3 px-4">
+
+
     <Header />
     <About />
     <Skills />
     <Projects />
     <Education />
     <Contact />
+    
   </div>
 
   );

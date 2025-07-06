@@ -8,25 +8,48 @@ const Projects = () => (
 
       {/* Project 1: ADaM Designer */}
       <div className="col-md-6">
-        <div className="card h-100 border-success shadow">
-          <div className="card-body">
-            <h5 className="card-title d-flex justify-content-between align-items-center">
-              ADaM Designer
-              <span className="badge bg-success d-flex align-items-center"><FaHeartbeat className="me-1" /> Healthcare</span>
-            </h5>
-            <p className="card-subtitle mb-2 text-muted">IQVIA | Senior Software Development Engineer</p>
-            <p className="card-text">
-              A data modeling and analytics tool to support statistical healthcare innovation. Developed backend/frontend, wrote unit tests, integrated AI, and collaborated with German clients.
-            </p>
-            <p><strong>Tech Stack:</strong> <SiSpringboot className="me-1" /> Spring Boot, <FaReact className="me-1" /> React, <SiVaadin className="me-1" /> Vaadin 14, PostgreSQL, JUnit</p>
-            <p><strong>AI/Cloud:</strong> <FaAws className="me-1" /> AWS Rekognition, ChatGPT, Label Detection</p>
-            <p>
-              <FaUsers className="me-2 text-primary" /> <strong>Team Size:</strong> 12 developers &nbsp;|&nbsp;
-              <FaCalendarAlt className="me-2 text-secondary" /> <strong>Duration:</strong> July 2021 – Present
-            </p>
-          </div>
-        </div>
-      </div>
+  <div className="card h-100 border-success shadow">
+    <div className="card-body">
+      <h5 className="card-title d-flex justify-content-between align-items-center">
+        ADaM Designer
+        <span className="badge bg-success d-flex align-items-center">
+          <FaHeartbeat className="me-1" /> Healthcare
+        </span>
+      </h5>
+
+      {/* 🔗 Linked company name */}
+      <p className="card-subtitle mb-2 text-muted">
+        <a
+          href="https://www.iqvia.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-decoration-none text-muted"
+        >
+          IQVIA
+        </a>{" "}
+        | Senior Software Development Engineer
+      </p>
+
+      <p className="card-text">
+        A data modeling and analytics tool to support statistical healthcare innovation. Developed backend/frontend, wrote unit tests, integrated AI, and collaborated with German clients.
+      </p>
+
+      <p>
+        <strong>Tech Stack:</strong> <SiSpringboot className="me-1" /> Spring Boot, <FaReact className="me-1" /> React, <SiVaadin className="me-1" /> Vaadin 14, PostgreSQL, JUnit
+      </p>
+
+      <p>
+        <strong>AI/Cloud:</strong> <FaAws className="me-1" /> AWS Rekognition, ChatGPT, Label Detection
+      </p>
+
+      <p>
+        <FaUsers className="me-2 text-primary" /> <strong>Team Size:</strong> 12 developers &nbsp;|&nbsp;
+        <FaCalendarAlt className="me-2 text-secondary" /> <strong>Duration:</strong> July 2021 – Present
+      </p>
+    </div>
+  </div>
+</div>
+
 
       {/* Project 2: BMW SWL */}
       <div className="col-md-6">
@@ -36,7 +59,18 @@ const Projects = () => (
               BMW SWL (Software Logistics)
               <span className="badge bg-primary d-flex align-items-center"><FaCarSide className="me-1" /> Automobile</span>
             </h5>
-            <p className="card-subtitle mb-2 text-muted">BMW (via Capgemini) | Senior Consultant</p>
+            
+            <p className="card-subtitle mb-2 text-muted">
+              <a
+                href="https://www.capgemini.com/in-en/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none text-muted"
+              >
+                BMW (via Capgemini)
+              </a>{" "}
+              | Senior Consultant
+            </p>
             <p className="card-text">
               Backend modules for managing control unit software across BMW car variants. Regular collaboration with the Munich team and product demo ownership.
             </p>
@@ -58,7 +92,17 @@ const Projects = () => (
               Bonprix Systems – Catalog & Partner Management
               <span className="badge bg-warning text-dark d-flex align-items-center"><FaShoppingCart className="me-1" /> E-Commerce</span>
             </h5>
-            <p className="card-subtitle mb-2 text-muted">Bonprix (via Direction Software) | Senior Software Engineer</p>
+            <p className="card-subtitle mb-2 text-muted">
+              <a
+                href="https://www.bonprix.de/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none text-muted"
+              >
+                Bonprix (via Direction Software)
+              </a>{" "}
+              | Senior Software Engineer
+            </p>
             <p className="card-text">
               Suite of applications for catalog printing, logo management, milestone planning, and partner onboarding. Worked on UI (Vaadin) and backend (Spring).
             </p>

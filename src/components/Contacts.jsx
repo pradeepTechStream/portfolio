@@ -1,4 +1,4 @@
-import { FaEnvelope, FaPhone, FaGraduationCap, FaCertificate } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaCertificate } from 'react-icons/fa';
 
 const Contact = () => (
   <section id="personal" className="container my-5">
@@ -25,16 +25,39 @@ const Contact = () => (
       
       {/* 📞 Contact Form */}
       <div className="col-md-12">
-        <div className="card h-100 shadow">
-          <div className="card-header bg-primary text-white">Get in Touch</div>
-          <div className="card-body">
-            <div className="mt-4">
-              <p><FaPhone className="me-2" />+91-8169162524</p>
-              <p><FaEnvelope className="me-2" />pradeep.maurya.dev@gmail.com</p>
-            </div>
-          </div>
-        </div>
+  <div className="card h-100 shadow">
+    <div className="card-header bg-primary text-white">Get in Touch</div>
+    <div className="card-body">
+      <div className="mt-4">
+        <p><FaPhone className="me-2" />(+91) 8655689394 / 8169162524</p>
+        <p><FaEnvelope className="me-2" />pradeep.maurya.dev@gmail.com</p>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/pradeeptechstream/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-decoration-none text-dark"
+          >
+            <FaLinkedin className="me-2" />
+            LinkedIn
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://github.com/pradeepTechStream"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-decoration-none text-dark"
+          >
+            <FaGithub className="me-2" />
+            GitHub
+          </a>
+        </p>
       </div>
+    </div>
+  </div>
+</div>
+
 
     </div>
   </section>

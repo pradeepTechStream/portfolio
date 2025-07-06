@@ -5,7 +5,7 @@ import msCert from '../assets/ms-expert-badge.svg';
 import msAss from '../assets/ms-associate.svg';
 
 const Header = () => (
-  <div className="bg-dark text-white py-3 px-4">
+  <div className="cool-header-bg text-white py-3 px-4">
     <div className="container d-flex flex-wrap justify-content-between align-items-center">
       
       {/* 👤 Profile Info */}
@@ -18,7 +18,7 @@ const Header = () => (
         />
         <div>
           <h5 className="mb-0">Pradeep Maurya</h5>
-          <small>📞 +91-9876543210</small>
+          <small>Bhayandar,Mumbai,Maharashtra,India</small>
         </div>
       </div>
 

@@ -1,0 +1,29 @@
+.footer {
+    background-color: #222;
+    color: #eee;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  .footer-icons {
+    margin-bottom: 10px;
+  }
+  
+  .footer-icons a {
+    margin: 0 12px;
+    color: #eee;
+    font-size: 32px;
+    transition: transform 0.2s ease-in-out, color 0.2s;
+  }
+  
+  .footer-icons a:hover {
+    transform: scale(1.1);
+    color: #0a66c2; /* LinkedIn Blue or choose your color */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  

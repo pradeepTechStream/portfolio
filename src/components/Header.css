@@ -13,4 +13,18 @@
   .nav-links a:hover {
     text-decoration: underline;
   }
+
+  .cool-header-bg {
+    background-color: #7281b9; /* or your chosen color */
+  }
+  .header-gradient {
+    background: linear-gradient(135deg, #3a3f51, #b3560f);
+  }
+
+  .cool-box-bg {
+    background-color: #999ba2; /* or your chosen color */
+  }
+  
+  
+  
   
