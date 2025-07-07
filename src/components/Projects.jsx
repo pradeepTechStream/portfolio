@@ -31,15 +31,11 @@ const Projects = () => (
       </p>
 
       <p className="card-text">
-        A data modeling and analytics tool to support statistical healthcare innovation. Developed backend/frontend, wrote unit tests, integrated AI, and collaborated with German clients.
+        A data modeling and analytics tool to support statistical healthcare innovation. Developed backend/frontend, wrote unit tests, integrated AI, and collaborated with clients.
       </p>
 
       <p>
-        <strong>Tech Stack:</strong> <SiSpringboot className="me-1" /> Spring Boot, <FaReact className="me-1" /> React, <SiVaadin className="me-1" /> Vaadin 14, PostgreSQL, JUnit
-      </p>
-
-      <p>
-        <strong>AI/Cloud:</strong> <FaAws className="me-1" /> AWS Rekognition, ChatGPT, Label Detection
+        <strong>Tech Stack:</strong> <SiSpringboot className="me-1" /> Spring Boot, <FaReact className="me-1" /> React, <SiVaadin className="me-1" /> Vaadin 14, PostgreSQL, JUnit, RabbitMQ, Microservice(REST API)
       </p>
 
       <p>
@@ -76,6 +72,9 @@ const Projects = () => (
             </p>
             <p><strong>Tech Stack:</strong> <FaJava className="me-1" /> Java Swing, Spring Boot, Hibernate, REST, SQL</p>
             <p><strong>Cloud:</strong> <FaAws className="me-1" /> AWS S3, Lambda, API Gateway, CloudWatch</p>
+            <p>
+              <strong>AI/Cloud:</strong> <FaAws className="me-1" /> AWS Rekognition, ChatGPT, Label Detection
+            </p>
             <p>
               <FaUsers className="me-2 text-primary" /> <strong>Team Size:</strong> 24 developers (12 India + 12 Germany) &nbsp;|&nbsp;
               <FaCalendarAlt className="me-2 text-secondary" /> <strong>Duration:</strong> Jan 2020 – June 2021

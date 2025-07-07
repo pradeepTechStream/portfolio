@@ -26,10 +26,10 @@ const Skills = () => (
           <div className="card-header bg-primary text-white">Programming Languages</div>
           <div className="card-body">
             <ul>
-              <li><FaJava className="me-2 text-danger" />Java (1.8 to 17)</li>
-              <li><SiJavascript className="me-2 text-warning" />JavaScript (ES6+)</li>
-              <li><FaDatabase className="me-2 text-info" />SQL (MySQL, PostgreSQL, Oracle)</li>
-              <li><FaPython className="me-2 text-secondary" />Python (basic scripting)</li>
+              <li><FaJava className="me-2 text-danger" />Worked on Java (1.8 to 17)</li>
+              <li><SiSpring className="me-2 text-white bg-success rounded" />Working on Spring Boot (MVC, REST, JPA, Security) and Integrated JWT Authentication.</li>
+              <li><FaDatabase className="me-2 text-info" />Working on PostgreSQL and having hands on experiance in SQL (MySQL, PostgreSQL)</li>
+              <li><FaPython className="me-2 text-secondary" />Integrated JMS in live project with ActiveMQ Server and RabbitMQ Server. </li>
             </ul>
           </div>
         </div>
@@ -41,10 +41,14 @@ const Skills = () => (
           <div className="card-header bg-success text-white">Frameworks & Libraries</div>
           <div className="card-body">
             <ul>
-              <li><SiSpring className="me-2 text-white bg-success rounded" />Spring Boot (MVC, REST, JPA, Security)</li>
-              <li>Micronaut (Microservices)</li>
-              <li><AiOutlineApi className="me-2 text-primary" />JAX-RS, Swagger</li>
+              
+              <li>Hands on experiance in Micronaut (Microservices)</li>
+              <li>Hands on experiance in SpringBoot (Microservices)</li>
+              <li>Hands on experiance in Vaadin (Java based UI Frameworks)</li>
+              <li>Hands on experiance in Java Swing (Java based UI Frameworks)</li>
               <li><FaReact className="me-2 text-info" />React (Hooks, SPA)</li>
+              <li><AiOutlineApi className="me-2 text-primary" />JAX-RS, Swagger</li>
+              
             </ul>
           </div>
         </div>
@@ -56,10 +60,11 @@ const Skills = () => (
           <div className="card-header bg-info text-white">Cloud & DevOps</div>
           <div className="card-body">
             <ul>
-              <li><FaAws className="me-2 text-warning" />AWS: S3, Lambda, EC2, API Gateway</li>
+              <li><FaAws className="me-2 text-warning" />AWS: S3, Lambda, EC2, API Gateway,IAM,Cloude Watch</li>
+              <li><FaCloud className="me-2 text-light" />Azure DevOps:Storage,Git repository</li>
               <li><FaDocker className="me-2 text-primary" />Docker & <SiKubernetes className="me-2" />Kubernetes</li>
-              <li><FaGitAlt className="me-2 text-danger" />Git, GitLab CI, Bitbucket</li>
-              <li><FaCloud className="me-2 text-light" />GitHub Actions (CI/CD)</li>
+              <li><FaGitAlt className="me-2 text-danger" />Git, GitLab CI, Bitbucket,Bamboo</li>
+              <li><FaCloud className="me-2 text-light" />Jenkin (CI/CD)</li>
             </ul>
           </div>
         </div>
@@ -88,8 +93,8 @@ const Skills = () => (
             <ul>
               <li><FaTools className="me-2" />IntelliJ, Eclipse, VS Code</li>
               <li><FaDatabase className="me-2 text-info" />MySQL Workbench, PGAdmin</li>
-              <li><FaGithub className="me-2" />GitHub, GitBash, Bitbucket</li>
-              <li><FaJira className="me-2 text-warning" />JIRA, Confluence</li>
+              <li><FaGithub className="me-2" />GitBash,Swagger,PostMan,Sonar</li>
+              <li><FaJira className="me-2 text-warning" />JIRA, Confluence,Agile Model,Scrum,Spring</li>
             </ul>
           </div>
         </div>

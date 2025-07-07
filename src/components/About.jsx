@@ -8,7 +8,7 @@ const About = () => (
 
     {/* 📄 Download Resume Button */}
     <a
-      href="/resume.pdf"
+      href={`${process.env.PUBLIC_URL}/resume.pdf`}
       download="Pradeep_Maurya_Resume.pdf"
       className="btn btn-primary mt-3"
     >
