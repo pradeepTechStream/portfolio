@@ -12,6 +12,7 @@ const Contact = () => (
           <div className="card-body">
             <ul>
               <li><strong>AWS Certified Solutions Architect – Associate</strong> (G9GYNJPC8JF41SSR)</li>
+              <li><strong>Microsoft Certified: Azure AI Engineer Associate</strong> (DD84FR-A47B76)</li>
               <li><strong>Microsoft Certified: DevOps Engineer Expert</strong> (C753DD-X67FEC)</li>
               <li><strong>Microsoft Certified: Azure Developer Associate</strong> (C73B00-2CCA4F)</li>
               <li><strong>Microsoft Azure Fundamentals</strong> – Simplilearn (4218306)</li>
